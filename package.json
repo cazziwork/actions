@@ -2,9 +2,15 @@
   "name": "fizz-buzz",
   "version": "1.0.0",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "lint": "eslint .",
     "test": "mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^10.0.1",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0",
+    "prettier": "^1.19.1"
+  }
 }
